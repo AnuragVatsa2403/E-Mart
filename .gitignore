@@ -1,0 +1,52 @@
+# ============================
+# GLOBAL (Frontend + Backend)
+# ============================
+node_modules/
+dist/
+build/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# ============================
+# ENV FILES (VERY IMPORTANT)
+# ============================
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+*.env
+
+# ============================
+# FRONTEND (client)
+# ============================
+client/node_modules/
+client/dist/
+client/build/
+client/.env
+client/.DS_Store
+client/.cache/
+client/.temp/
+
+# ============================
+# BACKEND (server)
+# ============================
+server/node_modules/
+server/dist/
+server/build/
+server/.env
+server/.DS_Store
+server/.cache/
+server/.temp/
+
+# Typescript cache
+*.tsbuildinfo
+
+# PM2/Temp Files
+pids
+*.pid
+*.seed
+*.pid.lock
